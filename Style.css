@@ -24,6 +24,7 @@ padding-right: 10px;
     
 }
 
+/* mobile responsive */
 @media only screen and (max-width: 688px) {
     .top-banner{
         display: flex;
@@ -34,3 +35,15 @@ padding-right: 10px;
     }
     
 }
+
+/* tablet responsive */
+@media only screen and (min-width: 689px) and (max-width: 992px)
+ {
+
+   .top-banner{
+   
+    margin: 3vh;
+    padding: 4vh;
+    text-align: center;
+   }
+ }
